@@ -11,7 +11,7 @@ export default function SocialWidget() {
           <Icon icon="fa-brands:facebook-f" />
         </Link>
 
-        <Link to="https://www.linkedin.com/company/media-cook-marketing/posts/?feedView=all">
+        <Link to="https://www.linkedin.com/company/media-cook-marketing">
           <Icon icon="fa-brands:linkedin-in" />
         </Link>
 
