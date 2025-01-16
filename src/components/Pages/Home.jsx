@@ -99,7 +99,7 @@ const blogData = [
   {
     id: "medical-practice-with-effective-seo",
     title: "Effective Healthcare SEO for Medical Professionals | MediaCook",
-    thumbUrl: "images/banner_img.webp",
+    thumbUrl: "images/blog/blog2.png",
     date: "January 16",
     btnText: "Learn More",
     href: "/blog/medical-practice-with-effective-seo",

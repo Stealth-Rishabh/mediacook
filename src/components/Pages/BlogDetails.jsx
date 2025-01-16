@@ -79,9 +79,6 @@ const blogPosts = [
     title: "Effective Healthcare SEO for Medical Professionals | MediaCook",
     date: "January 16, 2025",
     content: `
-      <h1>Elevate Your Medical Practice with Effective SEO</h1>
-
-
 <p>
 Today's world has become so digitally advanced that most patients use the internet instead of phone books or newspapers to find a healthcare practitioner. The initial step is nearly always to use a search engine, most often Google, for a medical problem, to find a nearby medical facility, or to find a specialist.
 </p>
@@ -233,25 +230,25 @@ In the age of information technology, it is essential for medical practices to h
 Keywords are the foundation of SEO, guiding search engines in understanding your  website’s content. For medical professionals, effective keyword usage can help attract potential patients. Here are some strategies for using keywords effectively:
 </p>
 <h4><strong>1. Conduct Keyword Research</strong></h4>
-<ul>
+<ul style="margin-top: 20px;">
 <li><strong>Identify Relevant Keywords:</strong> Use tools like Google Keyword Planner, or SEMrush to discover keywords that potential patients are searching for. Focus on terms related to your specialties, services, and local area.</li>
 
 <li><strong>Long-Tail Keywords:</strong> Incorporate long tail keywords that are more specific and often have less competition. These can attract more qualified leads looking for specific services.</li>
 </ul>
 <h4><strong>2. Optimise Website Content</strong></h4>
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Strategic Placement</strong>: Place keywords naturally in important areas such as page titles, headers (H1, H2), meta descriptions, and throughout the body of your content. Avoid keyword stuffing, as this can negatively impact user experience and SEO.</li>
 
 <li><strong>Create Relevant Content:</strong> Write blog posts, articles, and FAQs addressing common patient concerns, using relevant keywords to provide valuable information while optimising for search engines.</li>
 </ul>
 <h4><strong>3. Use Location-Based Keywords</strong></h4>
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Local SEO Focus</strong>: For medical practices, incorporating local keywords is crucial. Include your city, neighbourhood, or region in your keywords to attract local patients. For example, “orthopaedic surgeon in [City]” helps improve visibility for those searching for services in your area.</li>
 </ul>
 <h4><strong>4. Monitor and Adjust</strong></h4>
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Analyse Performance:</strong> Use tools like Google Analytics to track which keywords are driving traffic to your site. Regularly review and adjust your keyword strategy based on performance metrics to improve your SEO efforts.</li>
 </ul>
@@ -264,7 +261,7 @@ While some medical professionals may attempt to manage SEO in house, hiring a sp
 <h4><strong>1. Expertise and Experience</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Specialised Knowledge:</strong> SEO agencies possess specialised knowledge of current trends, algorithms, and best practices. Their expertise can help your practice navigate the complexities of SEO effectively.</li>
 
@@ -273,7 +270,7 @@ While some medical professionals may attempt to manage SEO in house, hiring a sp
 <h4><strong>2. Comprehensive SEO Strategies</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Holistic Approach:</strong> SEO agencies develop comprehensive strategies that encompass on page optimization, local SEO, content creation, and technical SEO.</li>
 
@@ -282,7 +279,7 @@ While some medical professionals may attempt to manage SEO in house, hiring a sp
 <h4><strong>3. Time and Resource Efficiency</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Focus on Core Activities:</strong> By outsourcing SEO, medical professionals can focus on patient care and other essential activities while experts manage their online presence.</li>
 
@@ -291,7 +288,7 @@ While some medical professionals may attempt to manage SEO in house, hiring a sp
 <h4><strong>4. Data-Driven Decision Making</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Performance Tracking:</strong> SEO agencies utilise analytics tools to track performance and provide insights into what’s working and what needs adjustment. This data-driven approach enables more informed decision making for ongoing strategies.</li>
 </ul>
@@ -304,28 +301,28 @@ As the digital landscape continues to evolve, so will SEO strategies for medical
 <h4><strong>1. Voice Search Optimization</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Rise of Voice Search:</strong> With the growing popularity of voice activated devices, optimising for voice search is becoming essential. Medical practices should consider how patients phrase questions verbally and incorporate these into their content strategy.</li>
 </ul>
 <h4><strong>2. Emphasis on User Experience</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Core Web Vitals:</strong> Google is increasingly prioritising user experience factors, including page loading speed, mobile friendliness, and interactivity. Medical websites must be optimised for a seamless user experience to rank well.</li>
 </ul>
 <h4><strong>3. Visual and Video Content</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Increased Engagement:</strong> Visual content, such as videos and infographics, is becoming more prevalent. Creating engaging visual content can enhance user engagement and improve SEO rankings, making it essential for medical practices to incorporate these elements.</li>
 </ul>
 <h4><strong>4. Local SEO Focus</strong></h4>
 
 
-<ul>
+<ul style="margin-top: 20px;">
 
 <li><strong>Continued Importance of Local Search:</strong> As more patients seek nearby healthcare providers, local SEO will remain a critical focus. Optimising for local searches, managing online reviews, and maintaining an active GMB profile will be vital for success.</li>
 </ul>
