@@ -1,0 +1,24 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        width="64"
+        height="64"
+      >
+        {/* Paper with Pencil Icon */}
+        <rect
+          x="16"
+          y="16"
+          width="32"
+          height="40"
+          rx="2"
+          stroke="white"
+          strokeWidth="3"
+          fill="none"
+        />
+        <line x1="22" y1="26" x2="42" y2="26" stroke="white" strokeWidth="2" />
+        <line x1="22" y1="34" x2="42" y2="34" stroke="white" strokeWidth="2" />
+        <line x1="22" y1="42" x2="32" y2="42" stroke="white" strokeWidth="2" />
+        {/* Pencil Icon */}
+        <polygon points="44,50 48,54 54,44 50,40" fill="white" />
+        <line x1="46" y1="52" x2="52" y2="46" stroke="white" strokeWidth="2" />
+      </svg>
