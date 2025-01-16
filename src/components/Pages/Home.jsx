@@ -86,33 +86,47 @@ const faqData = [
 
 const blogData = [
   {
-    title: "The Power of SEM for Boosting Your Business",
-    thumbUrl:
-      "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    date: "May 1, 2023",
+    id: "strategies-for-healthcare-digital-marketing-success",
+    title: "Digital Marketing Strategies for Healthcare Growth | MediaCook",
+    thumbUrl: "images/banner_square.webp",
+    date: "October 15",
     btnText: "Learn More",
-    href: "#",
-    socialShare: false,
-  },
-  {
-    title: "Why SEO is Crucial for Your Online Success",
-    thumbUrl:
-      "https://img.freepik.com/free-photo/top-view-tools-marketing_1134-83.jpg?t=st=1725448574~exp=1725452174~hmac=cfebf634f75162d86d8a665b7a419e37968d56487a86094800cc4ff9590a898e&w=740",
-    date: "May 4, 2023",
-    btnText: "Learn More",
-    href: "#",
-    socialShare: false,
-  },
-  {
-    title: "Top Social Media Strategies for Brand Growth",
-    thumbUrl:
-      "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    date: "May 1, 2023",
-    btnText: "Learn More",
-    href: "#",
-    socialShare: false,
+    href: "/blog/strategies-for-healthcare-digital-marketing-success",
+    socialShare: true,
+    description:
+      "Explore top healthcare digital marketing strategies to increase visibility, engage patients, and improve your practice’s success with SEO, PPC, and more.",
   },
 ];
+
+// const blogData = [
+//   {
+//     title: "The Power of SEM for Boosting Your Business",
+//     thumbUrl:
+//       "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//     date: "May 1, 2023",
+//     btnText: "Learn More",
+//     href: "#",
+//     socialShare: false,
+//   },
+//   {
+//     title: "Why SEO is Crucial for Your Online Success",
+//     thumbUrl:
+//       "https://img.freepik.com/free-photo/top-view-tools-marketing_1134-83.jpg?t=st=1725448574~exp=1725452174~hmac=cfebf634f75162d86d8a665b7a419e37968d56487a86094800cc4ff9590a898e&w=740",
+//     date: "May 4, 2023",
+//     btnText: "Learn More",
+//     href: "#",
+//     socialShare: false,
+//   },
+//   {
+//     title: "Top Social Media Strategies for Brand Growth",
+//     thumbUrl:
+//       "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+//     date: "May 1, 2023",
+//     btnText: "Learn More",
+//     href: "#",
+//     socialShare: false,
+//   },
+// ];
 
 const awardData = [
   {
