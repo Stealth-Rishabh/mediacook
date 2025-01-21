@@ -68,22 +68,17 @@ export default function ContactForm() {
     e.preventDefault();
     if (validateForm()) {
       const postData = new FormData();
-
-      // Add all form fields
       postData.append("contact-name", formData.name);
       postData.append("contact-email", formData.email);
       postData.append("contact-phone", formData.phoneNumber);
       postData.append("contact-company", formData.companyName);
       postData.append("contact-subject", formData.subject);
       postData.append("contact-message", formData.message);
-      postData.append("contact-service", formData.service);
-      postData.append("referrer_name", document.referrer);
-      postData.append("orderid", "1043");
-      postData.append("sitename", "Mediacook2024");
-      postData.append("source", "website");
 
-      // Debug log
-      console.log("Form Data being sent:", Object.fromEntries(postData));
+      // Adding additional CRM fields
+      postData.append("referrer_name", document.referrer); // Referrer
+      postData.append("orderid", "1043"); // Replace with your order ID
+      postData.append("sitename", "Mediacook2024"); // Replace with your sitename
 
       try {
         const response = await fetch(
@@ -91,29 +86,20 @@ export default function ContactForm() {
           {
             method: "POST",
             body: postData,
-            headers: {
-              Accept: "application/json",
-            },
           }
         );
 
-        // Debug log
-        console.log("Response status:", response.status);
-        const responseText = await response.text();
-        console.log("Raw response:", responseText);
+        const result = await response.json();
 
-        const result = JSON.parse(responseText);
-
-        if (result.success) {
+        if (result.status === "success") {
+          // Redirect to Thank You page after successful form submission
           navigate("/thank-you");
         } else {
-          alert(`Submission failed: ${result.message}`);
+          alert(`There was an error: ${result.message}`);
         }
       } catch (error) {
         console.error("Error submitting form:", error);
-        alert(
-          "An error occurred while submitting the form. Please try again later."
-        );
+        alert("An error occurred. Please try again later.");
       }
     }
   };
