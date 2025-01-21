@@ -1,80 +1,103 @@
 <?php
-// Enable error reporting
+// Enable error reporting for debugging
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', __DIR__ . '/php-errors.log');
 
 // CORS headers
-header("Access-Control-Allow-Origin: *"); // Allow all origins for development
+header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Accept");
 header('Content-Type: application/json');
 
 try {
+    // Debug log of received data
+    error_log("Received POST data: " . print_r($_POST, true));
+
     // Get POST data
-    $name = $_POST['contact-name'];
-    $email = $_POST['contact-email'];
-    $phone = $_POST['contact-phone'];
+    $name = $_POST['contact-name'] ?? '';
+    $email = $_POST['contact-email'] ?? '';
+    $phone = $_POST['contact-phone'] ?? '';
+    $company = $_POST['contact-company'] ?? '';
+    $subject = $_POST['contact-subject'] ?? '';
     $message = $_POST['contact-message'] ?? '';
+    $service = $_POST['contact-service'] ?? '';
     $referrer = $_POST['referrer_name'] ?? '';
-    $keyword = $_POST['keyword'] ?? '';
+    $orderid = $_POST['orderid'] ?? '1043';
+    $sitename = $_POST['sitename'] ?? 'Mediacook2024';
     $source = $_POST['source'] ?? 'website';
-    $orderid = '1043'; // Updated order ID
-    $sitename = 'Mediacook2024'; // Updated sitename
-    $campaign_url = $_POST['campaign_url'] ?? '';
-    $campaign_name = $_POST['campaign_name'] ?? '';
-    $network = $_POST['network'] ?? '';
+
+    // Debug log of processed data
+    error_log("Processed data: " . print_r([
+        'name' => $name,
+        'email' => $email,
+        'phone' => $phone,
+        'company' => $company,
+        'subject' => $subject,
+        'message' => $message,
+        'service' => $service
+    ], true));
 
     // Validate required fields
     if (empty($name) || empty($email) || empty($phone)) {
-        throw new Exception('All fields are mandatory');
+        throw new Exception('Name, email, and phone are required fields');
     }
 
-    // Prepare data for CRM in the exact format that works
+    // Prepare data for CRM
     $uniFields = array(
         'name' => urlencode($name),
         'phone' => urlencode($phone),
         'email' => urlencode($email),
-        'query' => urlencode($message),
+        'company' => urlencode($company),
+        'subject' => urlencode($subject),
+        'query' => urlencode($message),    // Note: message is sent as 'query'
+        'service' => urlencode($service),
         'http_referer' => urlencode($referrer),
-        'search_keyword' => urlencode($keyword),
-        'campaign_url' => urlencode($campaign_url),
-        'campaign_name' => urlencode($campaign_name),
-        'network' => urlencode($network),
         'source' => urlencode($source),
         'ORDERID' => urlencode($orderid),
         'SITENAME' => urlencode($sitename)
     );
 
+    // Debug log of CRM data
+    error_log("Data being sent to CRM: " . print_r($uniFields, true));
+
     // Build query string
-    $uni_fields_string = '';
-    foreach ($uniFields as $key => $value) {
-        $uni_fields_string .= $key . '=' . $value . '&';
-    }
-    $uni_fields_string = rtrim($uni_fields_string, '&');
+    $uni_fields_string = http_build_query($uniFields);
 
     // Make the CRM request
-    $post = curl_init();
-    curl_setopt($post, CURLOPT_URL, 'https://crm.stealthdigital.in/lp/index');
-    curl_setopt($post, CURLOPT_POST, count($uniFields));
-    curl_setopt($post, CURLOPT_POSTFIELDS, $uni_fields_string);
-    curl_setopt($post, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($post, CURLOPT_FOLLOWLOCATION, true);
+    $ch = curl_init();
+    curl_setopt_array($ch, [
+        CURLOPT_URL => 'https://crm.stealthdigital.in/lp/index',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => $uni_fields_string,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => false
+    ]);
+
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     
-    $content = curl_exec($post);
-    $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
-    
+    // Debug log of CRM response
     error_log("CRM Response Code: " . $httpCode);
-    error_log("CRM Response: " . $content);
+    error_log("CRM Response: " . $response);
 
-    curl_close($post);
+    if (curl_errno($ch)) {
+        throw new Exception('Curl error: ' . curl_error($ch));
+    }
+    
+    curl_close($ch);
 
-    // Return JSON response for the React app
     echo json_encode([
         'success' => true,
         'message' => 'Form submitted successfully',
-        'response' => $content
+        'response' => $response,
+        'debug' => [
+            'received_data' => $_POST,
+            'processed_data' => $uniFields
+        ]
     ]);
 
 } catch (Exception $e) {
