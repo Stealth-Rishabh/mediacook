@@ -80,7 +80,7 @@ export default function ContactForm() {
 
       try {
         const response = await fetch(
-          "https://mediacook.in/mediacook_crm_api.php",
+          "https://www.bfis.in/BFIS/mediacook_crm_api.php",
           {
             method: "POST",
             body: postData,
