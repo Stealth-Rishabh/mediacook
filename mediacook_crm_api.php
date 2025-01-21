@@ -1,34 +1,15 @@
 <?php
-// Enable error reporting for debugging
+// Enable error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', __DIR__ . '/php-errors.log');
 
-// Handle preflight OPTIONS request
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    header("Access-Control-Allow-Origin: *");
-    header("Access-Control-Allow-Methods: POST, OPTIONS");
-    header("Access-Control-Allow-Headers: Content-Type, Accept");
-    header("HTTP/1.1 200 OK");
-    exit();
-}
-
-// Set response headers for actual request
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: POST");
+// CORS headers
+header("Access-Control-Allow-Origin: *"); // Allow all origins for development
+header("Access-Control-Allow-Methods: POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Accept");
 header('Content-Type: application/json');
-
-// Only allow POST requests
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
-    echo json_encode([
-        'success' => false,
-        'message' => 'Method not allowed'
-    ]);
-    exit();
-}
 
 try {
     // Get POST data
@@ -38,16 +19,18 @@ try {
     $company = $_POST['contact-company'] ?? '';
     $subject = $_POST['contact-subject'] ?? '';
     $message = $_POST['contact-message'] ?? '';
+    $service = $_POST['contact-service'] ?? '';
     $referrer = $_POST['referrer_name'] ?? '';
     $orderid = $_POST['orderid'] ?? '1043';
     $sitename = $_POST['sitename'] ?? 'Mediacook2024';
+    $source = $_POST['source'] ?? 'website';
 
     // Validate required fields
     if (empty($name) || empty($email) || empty($phone)) {
         throw new Exception('Name, email, and phone are required fields');
     }
 
-    // Prepare data for CRM
+    // Prepare data for CRM in the exact format that works
     $uniFields = array(
         'name' => urlencode($name),
         'phone' => urlencode($phone),
@@ -55,43 +38,41 @@ try {
         'company' => urlencode($company),
         'subject' => urlencode($subject),
         'query' => urlencode($message),
+        'service' => urlencode($service),
         'http_referer' => urlencode($referrer),
+        'source' => urlencode($source),
         'ORDERID' => urlencode($orderid),
         'SITENAME' => urlencode($sitename)
     );
 
     // Build query string
-    $uni_fields_string = http_build_query($uniFields);
-
-    // Initialize cURL
-    $ch = curl_init();
-    curl_setopt_array($ch, [
-        CURLOPT_URL => 'https://crm.stealthdigital.in/lp/index',
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => $uni_fields_string,
-        CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_SSL_VERIFYPEER => false, // Only for development
-        CURLOPT_SSL_VERIFYHOST => false  // Only for development
-    ]);
-
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    
-    if (curl_errno($ch)) {
-        throw new Exception('Curl error: ' . curl_error($ch));
+    $uni_fields_string = '';
+    foreach ($uniFields as $key => $value) {
+        $uni_fields_string .= $key . '=' . $value . '&';
     }
+    $uni_fields_string = rtrim($uni_fields_string, '&');
+
+    // Make the CRM request
+    $post = curl_init();
+    curl_setopt($post, CURLOPT_URL, 'https://crm.stealthdigital.in/lp/index');
+    curl_setopt($post, CURLOPT_POST, count($uniFields));
+    curl_setopt($post, CURLOPT_POSTFIELDS, $uni_fields_string);
+    curl_setopt($post, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($post, CURLOPT_FOLLOWLOCATION, true);
     
-    curl_close($ch);
-
-    // Log the response
+    $content = curl_exec($post);
+    $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
+    
     error_log("CRM Response Code: " . $httpCode);
-    error_log("CRM Response: " . $response);
+    error_log("CRM Response: " . $content);
 
+    curl_close($post);
+
+    // Return JSON response for the React app
     echo json_encode([
         'success' => true,
         'message' => 'Form submitted successfully',
-        'response' => $response
+        'response' => $content
     ]);
 
 } catch (Exception $e) {
