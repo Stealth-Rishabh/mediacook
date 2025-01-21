@@ -68,6 +68,8 @@ export default function ContactForm() {
     e.preventDefault();
     if (validateForm()) {
       const postData = new FormData();
+
+      // Add all form fields
       postData.append("contact-name", formData.name);
       postData.append("contact-email", formData.email);
       postData.append("contact-phone", formData.phoneNumber);
@@ -79,6 +81,9 @@ export default function ContactForm() {
       postData.append("orderid", "1043");
       postData.append("sitename", "Mediacook2024");
       postData.append("source", "website");
+
+      // Debug log
+      console.log("Form Data being sent:", Object.fromEntries(postData));
 
       try {
         const response = await fetch(
@@ -92,16 +97,12 @@ export default function ContactForm() {
           }
         );
 
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
+        // Debug log
+        console.log("Response status:", response.status);
+        const responseText = await response.text();
+        console.log("Raw response:", responseText);
 
-        const contentType = response.headers.get("content-type");
-        if (!contentType || !contentType.includes("application/json")) {
-          throw new TypeError("Oops, we haven't got JSON!");
-        }
-
-        const result = await response.json();
+        const result = JSON.parse(responseText);
 
         if (result.success) {
           navigate("/thank-you");
