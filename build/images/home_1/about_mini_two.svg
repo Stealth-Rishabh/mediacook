@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <path id="circlePath" d="M100,100m-80,0a80,80 0 1,1 160,0a80,80 0 1,1 -160,0" />
+  </defs>
+  <text font-size="16" fill="#34495e">
+    <textPath href="#circlePath" startOffset="0">
+      Guaranteed Results
+    </textPath>
+  </text>
+</svg>

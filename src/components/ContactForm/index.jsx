@@ -74,11 +74,9 @@ export default function ContactForm() {
       postData.append("contact-company", formData.companyName);
       postData.append("contact-subject", formData.subject);
       postData.append("contact-message", formData.message);
-
-      // Adding additional CRM fields
-      postData.append("referrer_name", document.referrer); // Referrer
-      postData.append("orderid", "1043"); // Replace with your order ID
-      postData.append("sitename", "Mediacook2024"); // Replace with your sitename
+      postData.append("referrer_name", document.referrer);
+      postData.append("orderid", "1043");
+      postData.append("sitename", "Mediacook2024");
 
       try {
         const response = await fetch(
@@ -86,20 +84,33 @@ export default function ContactForm() {
           {
             method: "POST",
             body: postData,
+            headers: {
+              Accept: "application/json",
+            },
           }
         );
 
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const contentType = response.headers.get("content-type");
+        if (!contentType || !contentType.includes("application/json")) {
+          throw new TypeError("Oops, we haven't got JSON!");
+        }
+
         const result = await response.json();
 
-        if (result.status === "success") {
-          // Redirect to Thank You page after successful form submission
+        if (result.success) {
           navigate("/thank-you");
         } else {
-          alert(`There was an error: ${result.message}`);
+          alert(`Submission failed: ${result.message}`);
         }
       } catch (error) {
         console.error("Error submitting form:", error);
-        alert("An error occurred. Please try again later.");
+        alert(
+          "An error occurred while submitting the form. Please try again later."
+        );
       }
     }
   };

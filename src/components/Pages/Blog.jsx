@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import BannerSectionStyle9 from "../Section/BannerSection/BannerSectionStyle9";
+
 import Section from "../Section";
 import BlogSectionStyle2 from "../Section/BlogSection/BlogSectionStyle2";
 import Breadcrumb from "../Breadcrumb";
@@ -28,6 +28,17 @@ const blogData = [
     description:
       "Boost your medical practice's online visibility with healthcare SEO. Learn essential strategies to attract patients and rank higher on Google.",
   },
+  {
+    id: "boost-your-healthcare-business-with-sem",
+    title: "Boost Your Healthcare Business with SEM in 2025 | MediaCook",
+    thumbUrl: "images/blog/blog3.png",
+    date: "January 21",
+    btnText: "Learn More",
+    href: "/blog/boost-your-healthcare-business-with-sem",
+    socialShare: true,
+    description:
+      "Discover how SEM can boost your healthcare business in 2025. Learn strategies to enhance visibility, attract patients, and achieve measurable growth online.",
+  },
 ];
 
 export default function Blog() {
@@ -43,13 +54,6 @@ export default function Blog() {
       </Section>
       <Section bottomMd={200} bottomLg={150} bottomXl={110}>
         <BlogSectionStyle2 data={blogData} />
-      </Section>
-      <Section className="cs_footer_margin_0">
-        <BannerSectionStyle9
-          title="Don’t Let Your Health <br />Take a Backseat!"
-          subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
-          imgUrl="/images/doctors/banner_img_3.png"
-        />
       </Section>
     </>
   );
