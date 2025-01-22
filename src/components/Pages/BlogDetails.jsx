@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import Section from "../Section";
 import Breadcrumb from "../Breadcrumb";
-import { Icon } from "@iconify/react";
+
 import Spacing from "../Spacing";
 import Post from "../Post";
 // import Sidebar from "../Sidebar";
@@ -471,26 +471,12 @@ export default function BlogDetails() {
           <div className="cs_blog_details_info_left">
             <div className="cs_blog_details_tags">
               {blogPost.tags.map((tag, index) => (
-                <Link key={index} to="/blog/blog-details">
+                <span key={index} className="tag">
                   {tag}
-                </Link>
+                </span>
               ))}
             </div>
             <div className="cs_blog_details_date">{blogPost.date}</div>
-          </div>
-          <div className="cs_social_links_wrap">
-            <h2>Share:</h2>
-            <div className="cs_social_links">
-              <Link to="/">
-                <Icon icon="fa-brands:facebook-f" />
-              </Link>
-              <Link to="/">
-                <Icon icon="fa-brands:linkedin-in" />
-              </Link>
-              <Link to="/">
-                <Icon icon="fa-brands:twitter" />
-              </Link>
-            </div>
           </div>
         </div>
 

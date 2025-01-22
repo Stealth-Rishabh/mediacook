@@ -1,6 +1,5 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Post({
   title,
@@ -20,19 +19,6 @@ export default function Post({
         <div>
           <div className="cs_post_meta">
             <div className="cs_posted_by">{date}</div>
-            {socialShare && (
-              <div className="cs_post_social">
-                <Link to="/" className="cs_center rounded-circle">
-                  <Icon icon="fa-brands:linkedin-in" />
-                </Link>
-                <Link to="/" className="cs_center rounded-circle">
-                  <Icon icon="fa-brands:facebook-f" />
-                </Link>
-                <Link to="/" className="cs_center rounded-circle">
-                  <Icon icon="fa-brands:twitter" />
-                </Link>
-              </div>
-            )}
           </div>
           <h2 className="cs_post_title cs_semibold cs_fs_32">
             <Link to={href}>{title}</Link>
