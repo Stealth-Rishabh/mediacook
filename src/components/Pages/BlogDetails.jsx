@@ -21,50 +21,50 @@ const blogPosts = [
 
       <h2>Understanding the Healthcare Marketing</h2>
       <p>Healthcare marketing refers to the strategies involved in reaching out and selling healthcare services and products as well as healthcare organizations and firms to prospective patients and other stakeholders. This can include:</p>
-      <ul>
+      <ol>
         <li><b>Service Marketing:</b> All marketing activities directed towards enhancing the awareness of a particular healthcare provider’s services they provide such as their specialists, treatment types, and wellness programs.</li>
         <li><b>Patient Education:</b> Informing the patients on health-related matters, disease prevention methods, and available treatments.</li>
         <li><b>Reputation Management:</b> Strategies employed to create a good image and protect it both in real life and in cyberspace.</li>
         <li><b>Patient Engagement:</b> Taking measures to help patients feel concerned about the process and communicate with the individuals responsible for their treatment.</li>
         <li><b>Business Identity:</b> Creation of a suitable image bearing in mind the overriding factor of the patients and the need to counter the effects of competing practices.</li>
-      </ul>
+      </ol>
 
       <h2>The Importance of Healthcare Marketing</h2>
       <p>Healthcare marketing is important for many reasons, but some of the main reasons are mentioned below:</p>
-      <ul>
+      <ol>
         <li><b>Increased Visibility:</b> In light of the fact that a number of healthcare providers are looking for their patients’ attention, effective marketing makes your practice easier to locate for patients.</li>
         <li><b>Patient Trust:</b> Trust is won through the use of informative and clear marketing strategies that make potential patients feel assured of your services.</li>
         <li><b>Patient Retention:</b> Prompting patients towards future visitations is possible through marketing, which involves the current patients, encouraging them to stay loyal to your practice.</li>
         <li><b>Educational Outreach:</b> Marketing gives an opportunity to health practitioners to inform patients about critical health issues, which plays a significant role in ensuring proper health is achieved.</li>
         <li><b>Competitive Advantage:</b> Any given practice can formulate a good marketing strategy which keeps the practice a step ahead of other practices with the aim of bringing in more patients.</li>
-      </ul>
+      </ol>
 
       <h2>How Digital Marketing Agencies Are Revolutionizing the Healthcare Sector</h2>
       <p>A healthcare-focused digital marketing agency can assure results for both hospitals and medical practices due to comprehensive knowledge and customized approaches. These agencies appreciate the challenges of marketing in the health care sector and the needs of health care marketers.</p>
-      <ul>
+      <ol>
         <li><b>Business Acumen and Management Skills:</b> Healthcare digital marketing agencies know the ins and outs of the industry, whether patient privacy concerns and HIPAA compliance or other laws.</li>
         <li><b>Appropriate Marketing Strategy:</b> They ensure that the right patients receive the correct marketing communication at the appropriate time by designing their campaigns to suit the demographic group targeted.</li>
         <li><b>Monitoring of Performance:</b> Healthcare digital marketing agencies evaluate the success of various campaigns using analytical systems which facilitate results based on data.</li>
-      </ul>
+      </ol>
 
       <h2>Digital Marketing for Hospitals: Tips for Increasing Patient Engagement</h2>
       <p>There are certain limitations in marketing for hospitals as compared to other businesses. However, with the right digital marketing strategies, hospitals can focus on winning and keeping their patients. The following practices can be made for engaging more patients:</p>
-      <ul>
+      <ol>
         <li><b>SEO Practices:</b> Optimising the hospital’s website for the local search results can help in directing patients towards the facility. Most patients tend to type in phrases like ‘hospital near me’ and thus a good local SEO strategy ensures that such patients are covered.</li>
         <li><b>PPC Campaigns:</b> Google advertisements enable the hospitals to pay for better ranking positions in the search engines for health-related patients.</li>
         <li><b>Telemedicine Promotions:</b> As telemedicine consumers increase, healthcare providers shall advance their telemedicine services on their websites. This not only answers the requests of the patients but also helps in differentiating your hospital from other facilities that do not practice virtual care.</li>
         <li><b>Informative Content:</b> The internet has become a patient source of health information. Providing packed and useful information through blogs, health videos, and social platforms will help the hospital create its image as one which can be relied upon for health-related issues.</li>
-      </ul>
+      </ol>
 
       <h2>How to Start a Hospital</h2>
       <p>Establishing a hospital is not an easy undertaking, and more so, it is imperative that a strong marketing and branding pillar is established from the very onset. Here are some ways in which branding and marketing of a new hospital can be done:</p>
-      <ul>
+      <ol>
         <li><b>Market Research:</b> Identify problems that the residents of the demographic you wish to serve have with regard to healthcare services, undertake market research in that particular demographic. Find out what services are lacking and how your hospital can offer those services.</li>
         <li><b>Develop an Impactful Visual Branding:</b> Design a trustworthy and professional image and logo, select a suitable color scheme, and overall branding as the outward appearance of the hospital. All these should align with the mission and objectives of the hospital.</li>
         <li><b>Develop a Hospital Website:</b> It is important to ensure that patients are encouraged by the website to use the services offered at the hospital. This includes patient feedback or reviews, patient appointment services, which are simple and user-friendly.</li>
         <li><b>Digital Promotion:</b> Organize and run community-oriented promotional events to catch the attention of the residents and introduce the hospital to them. Incorporate SEO, social media, and PPC in order to promote the image of the hospital.</li>
         <li><b>Community Outreach:</b> Interact and connect with local organizations, healthcare professionals, and the public. Organize health fairs, free checkups, or wellness workshops to gain trust as a healthcare service provider in that region.</li>
-      </ul>
+      </ol>
 
       <h2>Conclusion</h2>
       <p>Marketing in the digital sphere has become a necessity for any medical practice, healthcare facility, or organization to be able to cope and interact with patients effectively, without exception. It includes advertising services, educating patients, managing patients' standing, attraction, and retention. All these measures aim at increasing visibility, instilling faith, and growing a strong brand. Marketing ensures that patients can be found, informed, and retained while also assisting in the growth of the practice.</p>
@@ -137,84 +137,84 @@ Implementing effective SEO strategies is essential for medical professionals to 
 <p>
 Local SEO is crucial for medical practices as patients often search for healthcare providers in their local areas. Here are some steps to organise for local SEO:
 </p>
-<ul>
+<ol>
 
 <li><strong>Google My Business (GMB):</strong> Create and maintain an up-to-date GMB profile. Include essential information like your practice's name, address, phone number, office hours, and services offered.</li>
 
 <li><strong>Local Keywords:</strong> Use local keywords in your website content, such as “[Your Specialty] in [City]” or “Physician near me.” This helps search engines connect your practice with local search queries.</li>
 
 <li><strong>NAP Consistency:</strong> Ensure that your Name, Address, and Phone number (NAP) are consistent across all online platforms, including your website, social media, and directories. This builds trust with search engines and improves local rankings.</li>
-</ul>
+</ol>
 <h4><strong>2. Create High-Quality, Informative Content</strong></h4>
 
 
 <p>
 A major factor in SEO success is the content. You may increase the visibility of your website by creating informative material that responds to patients' issues.
 </p>
-<ul>
+<ol>
 
 <li><strong>Blog Posts:</strong> Write informative blog posts on relevant topics related to your practice, such as treatment options, health tips, and disease prevention.</li>
 
 <li><strong>FAQs:</strong> Develop a FAQ section that answers common patient questions. This not only improves SEO but also enhances the patient experience by providing quick answers.</li>
 
 <li><strong>Patient Education</strong>: Create resources such as guides, infographics, and videos that educate patients about conditions, treatments, and preventive care.</li>
-</ul>
+</ol>
 <h4><strong>3. Focus on On-Page SEO</strong></h4>
 
 
 <p>
 On page SEO involves optimising individual web pages to improve rankings. Here are some of the essential on-page SEO techniques:
 </p>
-<ul>
+<ol>
 
 <li><strong>Title Tags and Meta Descriptions:</strong> Use relevant keywords in your title tags and meta descriptions. These elements help search engines understand your content and improve click through rates.</li>
 
 <li><strong>Header Tags</strong>: Utilise header tags (H1, H2, H3) to structure your content. This not only enhances readability but also helps search engines grasp the hierarchy of your information.</li>
 
 <li><strong>Image Optimization:</strong> Use descriptive file names and alt text for images to enhance accessibility and improve SEO. This helps search engines index your images and can drive traffic from image searches.</li>
-</ul>
+</ol>
 <h4><strong>4. Build Authority with Backlinks</strong></h4>
 
 
 <p>
 One of the key factors affecting the success of SEO strategies is content. The website can be advertised with the use of informative material focusing on patients' problems. Some of the techniques are mentioned below:
 </p>
-<ul>
+<ol>
 
 <li><strong>Guest Blogging:</strong> Write guest posts for reputable healthcare websites or blogs in your field. Include links back to your site to drive traffic and improve SEO.</li>
 
 <li><strong>Partnerships:</strong> Collaborate with local businesses, hospitals, or healthcare organisations for community events or educational seminars. These partnerships can result in backlinks from their websites.</li>
 
 <li><strong>Directories and Reviews:</strong> List your practice in trusted healthcare directories and encourage satisfied patients to leave reviews. Positive reviews enhance your credibility and attract new patients.</li>
-</ul>
+</ol>
 <h4><strong>5. Ensure a Mobile-Friendly Experience</strong></h4>
 
 
 <p>
 Many users these days are visiting sites from mobile devices and hence it is very important to have a design that is mobile friendly. Below are some points to know your website is mobile optimised:
 </p>
-<ul>
+<ol>
 
 <li><strong>Responsive Design:</strong> Use a responsive web design that adjusts to different screen sizes, ensuring a seamless experience across devices.</li>
 
 <li><strong>Fast Loading Times:</strong> Optimise your website for speed. Compress images, minimise code, and leverage browser caching to improve loading times, which can enhance user experience and SEO.</li>
 
 <li><strong>User-Friendly Navigation:</strong> Make sure your site is easy to navigate on mobile devices, with clear menus and accessible contact information.</li>
-</ul>
+</ol>
 <h4><strong>6. Monitor and Adjust Your SEO Efforts</strong></h4>
 
 
 <p>
 SEO is an ongoing process that requires continuous monitoring and adjustment. Here are some steps by which you can track your SEO performance:
 </p>
-<ul>
+<ol>
 
 <li><strong>Analytics Tools:</strong> Use tools like Google Analytics and Google Search Console to monitor your website’s traffic, user behaviour, and keyword rankings.</li>
 
 <li><strong>Regular Audits:</strong> Conduct regular SEO audits to identify areas for improvement, such as broken links, outdated content, or technical issues.</li>
 
 <li><strong>Adapt Strategies:</strong> Stay updated with SEO trends and algorithm changes. Adapt your strategies based on performance data to continuously enhance your online visibility.</li>
-</ul>
+</ol>
 <h3><strong>Optimising Medical Practice Websites for SEO Success</strong></h3>
 
 
@@ -228,28 +228,28 @@ In the age of information technology, it is essential for medical practices to h
 Keywords are the foundation of SEO, guiding search engines in understanding your  website’s content. For medical professionals, effective keyword usage can help attract potential patients. Here are some strategies for using keywords effectively:
 </p>
 <h4><strong>1. Conduct Keyword Research</strong></h4>
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 <li><strong>Identify Relevant Keywords:</strong> Use tools like Google Keyword Planner, or SEMrush to discover keywords that potential patients are searching for. Focus on terms related to your specialties, services, and local area.</li>
 
 <li><strong>Long-Tail Keywords:</strong> Incorporate long tail keywords that are more specific and often have less competition. These can attract more qualified leads looking for specific services.</li>
-</ul>
+</ol>
 <h4><strong>2. Optimise Website Content</strong></h4>
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Strategic Placement</strong>: Place keywords naturally in important areas such as page titles, headers (H1, H2), meta descriptions, and throughout the body of your content. Avoid keyword stuffing, as this can negatively impact user experience and SEO.</li>
 
 <li><strong>Create Relevant Content:</strong> Write blog posts, articles, and FAQs addressing common patient concerns, using relevant keywords to provide valuable information while optimising for search engines.</li>
-</ul>
+</ol>
 <h4><strong>3. Use Location-Based Keywords</strong></h4>
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Local SEO Focus</strong>: For medical practices, incorporating local keywords is crucial. Include your city, neighbourhood, or region in your keywords to attract local patients. For example, “orthopaedic surgeon in [City]” helps improve visibility for those searching for services in your area.</li>
-</ul>
+</ol>
 <h4><strong>4. Monitor and Adjust</strong></h4>
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Analyse Performance:</strong> Use tools like Google Analytics to track which keywords are driving traffic to your site. Regularly review and adjust your keyword strategy based on performance metrics to improve your SEO efforts.</li>
-</ul>
+</ol>
 <h3><strong>Advantages of Hiring an SEO Agency for Medical Professionals</strong></h3>
 
 
@@ -259,37 +259,37 @@ While some medical professionals may attempt to manage SEO in house, hiring a sp
 <h4><strong>1. Expertise and Experience</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Specialised Knowledge:</strong> SEO agencies possess specialised knowledge of current trends, algorithms, and best practices. Their expertise can help your practice navigate the complexities of SEO effectively.</li>
 
 <li><strong>Industry Insights:</strong> Agencies with experience in the healthcare sector understand the unique challenges and regulations involved, allowing them to tailor strategies specifically for medical practices.</li>
-</ul>
+</ol>
 <h4><strong>2. Comprehensive SEO Strategies</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Holistic Approach:</strong> SEO agencies develop comprehensive strategies that encompass on page optimization, local SEO, content creation, and technical SEO.</li>
 
 <li><strong>Staying Current:</strong> SEO agencies stay up-to-date with industry changes and algorithm updates, ensuring your strategies remain effective and compliant with search engine guidelines.</li>
-</ul>
+</ol>
 <h4><strong>3. Time and Resource Efficiency</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Focus on Core Activities:</strong> By outsourcing SEO, medical professionals can focus on patient care and other essential activities while experts manage their online presence.</li>
 
 <li><strong>Faster Results:</strong> Agencies have the tools and resources to implement strategies more quickly and effectively, potentially leading to faster improvements in search engine rankings.</li>
-</ul>
+</ol>
 <h4><strong>4. Data-Driven Decision Making</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Performance Tracking:</strong> SEO agencies utilise analytics tools to track performance and provide insights into what’s working and what needs adjustment. This data-driven approach enables more informed decision making for ongoing strategies.</li>
-</ul>
+</ol>
 <h3><strong>Emerging Trends in SEO for Medical Professionals</strong></h3>
 
 
@@ -299,31 +299,31 @@ As the digital landscape continues to evolve, so will SEO strategies for medical
 <h4><strong>1. Voice Search Optimization</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Rise of Voice Search:</strong> With the growing popularity of voice activated devices, optimising for voice search is becoming essential. Medical practices should consider how patients phrase questions verbally and incorporate these into their content strategy.</li>
-</ul>
+</ol>
 <h4><strong>2. Emphasis on User Experience</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Core Web Vitals:</strong> Google is increasingly prioritising user experience factors, including page loading speed, mobile friendliness, and interactivity. Medical websites must be optimised for a seamless user experience to rank well.</li>
-</ul>
+</ol>
 <h4><strong>3. Visual and Video Content</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Increased Engagement:</strong> Visual content, such as videos and infographics, is becoming more prevalent. Creating engaging visual content can enhance user engagement and improve SEO rankings, making it essential for medical practices to incorporate these elements.</li>
-</ul>
+</ol>
 <h4><strong>4. Local SEO Focus</strong></h4>
 
 
-<ul style="margin-top: 20px;">
+<ol style="margin-top: 20px;">
 
 <li><strong>Continued Importance of Local Search:</strong> As more patients seek nearby healthcare providers, local SEO will remain a critical focus. Optimising for local searches, managing online reviews, and maintaining an active GMB profile will be vital for success.</li>
-</ul>
+</ol>
 <p>
 <strong>Conclusion</strong>
 </p>
@@ -364,11 +364,11 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
 
   <h3>Step 1: Keyword Research</h3>
   <p>The purpose of the SEM campaign is finding the right keywords. In healthcare, keywords are specific to treatments or services, such as:</p>
-  <ul>
+  <ol>
     <li>Affordable IVF treatment</li>
     <li>Online doctor consultation near me</li>
     <li>Cancer treatment in India</li>
-  </ul>
+  </ol>
   <p>Research ensures that you’re targeting terms that patients are actively searching for.</p>
 
   <h3>Step 2: Crafting Compelling Ads</h3>
@@ -380,11 +380,11 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
 
   <h3>Step 4: Optimising Landing Pages</h3>
   <p>A well-designed landing page can make or break your SEM campaign. Once users click on your ad, they should land on a page that provides:</p>
-  <ul>
+  <ol>
     <li>Clear information about services.</li>
     <li>Contact details or an easy way to book an appointment.</li>
     <li>Patient testimonials to build trust.</li>
-  </ul>
+  </ol>
 
   <h2>Benefits of SEM for Healthcare Businesses</h2>
   <h3>1. Immediate Results</h3>
@@ -460,17 +460,17 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
 
       <h2>Causes of HMPV Virus Infection</h2>
       <p>The signs of HMPV infection have come to resemble those of other respiratory viral infections, such as influenza and RSV. Some of the prominent causes and risk factors are as follows:</p>
-      <ul>
+      <ol>
         <li>Person-to-person transmission through coughing and sneezing</li>
         <li>Touching contaminated surfaces and then touching the nose, mouth, or eyes</li>
         <li>Close contact with infected individuals, especially in crowded places</li>
         <li>Weakened immune system, making individuals more prone to infections</li>
         <li>Seasonal outbreaks, commonly occurring in late winter and spring</li>
-      </ul>
+      </ol>
 
       <h2>HMPV Virus Symptoms</h2>
       <p>The HMPV virus symptoms range from mild to severe, depending on the individual's immune response. Symptoms usually appear after exposure to the virus and can last for a week. Common symptoms of HMPV infection are given below:</p>
-      <ul>
+      <ol>
         <li>Cough (dry or wet)</li>
         <li>Runny or stuffy nose</li>
         <li>Fever and chills</li>
@@ -478,31 +478,31 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
         <li>Difficulty breathing</li>
         <li>Fatigue and body aches</li>
         <li>Loss of appetite (especially in children)</li>
-      </ul>
+      </ol>
 
       <h2>Who is at Risk of HMPV Infection?</h2>
       <p>HMPV virus may infect anyone, some groups are more experience severe complications:</p>
-      <ul>
+      <ol>
         <li>Infants and young children (due to their underdeveloped immune systems)</li>
         <li>Older adults, especially those with any underlying medical conditions</li>
         <li>People having weakened immune systems (e.g., patients with malignancies, organ transplant recipients)</li>
         <li>Individuals who have chronic forms of respiratory diseases like asthma or COPD</li>
-      </ul>
+      </ol>
 
       <h2>Precautions to Prevent HMPV Virus</h2>
       <p>Due to the absence of a vaccine or antiviral therapy against the HMPV virus, the following preventive measures are recommended:</p>
-      <ul>
+      <ol>
         <li>Regularly washing hands with soap and running water for at least 20 seconds.</li>
         <li>Avoiding touching one's face (nose, mouth, eyes) with unwashed hands.</li>
         <li>Covering the mouth and nose when coughing or sneezing.</li>
         <li>Disinfecting frequently touched surfaces such as doorknobs, cell phones, and tables.</li>
         <li>When sick, staying at home to prevent spreading the virus</li>
         <li>Boost your immune system in various ways such as eating well, exercising, and getting good rest.</li>
-      </ul>
+      </ol>
 
       <h2>Side Effects of HMPV Virus</h2>
       <p>HMPV infections are mild and resolve on their own, but in some cases, the virus can lead to complications such as:</p>
-      <ul>
+      <ol>
         <li>Pneumonia</li>
         <li>Cough</li>
         <li>Runny nose</li>
@@ -519,7 +519,7 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
         <li>Bronchiolitis</li>
         <li>Severe dehydration due to prolonged fever and lack of appetite</li>
         <li>Hospitalization may be required in high-risk patients</li>
-      </ul>
+      </ol>
       <p>If symptoms worsen, such as difficulty breathing, high fever, or persistent cough, medical attention is necessary.</p>
 
       <h2>Global and Regional Impact of HMPV Virus</h2>
@@ -527,22 +527,22 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
 
       <h2>HMPV Virus Diagnosis</h2>
       <p>Doctors may perform several tests to confirm the presence of HMPV virus, which are given below:</p>
-      <ul>
+      <ol>
         <li>Nasal or throat swabs to detect the virus</li>
         <li>Chest X-ray</li>
         <li>Blood tests</li>
-      </ul>
+      </ol>
       <p>Since HMPV symptoms are the same as other respiratory infections, proper diagnosis is essential to rule out influenza, RSV, or COVID-19.</p>
 
       <h2>Treatment for HMPV Virus</h2>
       <p>No specific antiviral medications or treatment exist for HMPV infection. The goal of the treatment focuses on reducing symptoms and improving recovery:</p>
-      <ul>
+      <ol>
         <li>Hydration through fluid intake</li>
         <li>Rest as much as possible</li>
         <li>Steam inhalation for congestion</li>
         <li>Over-the-counter pain relievers (like acetaminophen) for fever and general body aches</li>
         <li>Call up your doctor if symptoms worsen.</li>
-      </ul>
+      </ol>
 
       <h2>Conclusion</h2>
       <p>HMPV virus refers to a contagious virus that is present in the respiratory system and spreads through droplets as well as touch. Most often, it causes mild infections but for high-risk groups, it poses dangerous complications. This information gives causes, signs, preventive measures, and treatment regarding the HMPV virus, which help prevent its further spread and ensure early medical intervention whenever necessary.</p>
@@ -550,7 +550,7 @@ In conclusion, effective SEO is essential for medical professionals to thrive in
       <p>One way to reduce HMPV risk is by following preventive measures such as frequent hand washing, avoiding close contact with sick individuals, and building up a good immune system. If you or someone you know suddenly has severe symptoms of illness, contact your health care provider for evaluation and information on how to treat the condition.</p>
     `,
     tags: ["Healthcare", "HMPV", "Virus"],
-    image: "/images/blog/blog4.png",
+    image: "/images/blog/blog4.webp",
   },
 ];
 

@@ -11,6 +11,7 @@ import FaqSection from "../Section/FaqSection";
 import AwardSection from "../Section/AwardSection";
 import DepartmentSection from "../Section/DepartmentSection";
 import { pageTitle } from "../../helpers/PageTitle";
+import { blogData } from "./blogData";
 
 const featureListData = [
   {
@@ -84,30 +85,30 @@ const faqData = [
   },
 ];
 
-const blogData = [
-  {
-    id: "strategies-for-healthcare-digital-marketing-success",
-    title: "Digital Marketing Strategies for Healthcare Growth | MediaCook",
-    thumbUrl: "images/banner_img.webp",
-    date: "October 15",
-    btnText: "Learn More",
-    href: "/blog/strategies-for-healthcare-digital-marketing-success",
-    socialShare: true,
-    description:
-      "Explore top healthcare digital marketing strategies to increase visibility, engage patients, and improve your practice’s success with SEO, PPC, and more.",
-  },
-  {
-    id: "medical-practice-with-effective-seo",
-    title: "Effective Healthcare SEO for Medical Professionals | MediaCook",
-    thumbUrl: "images/blog/blog2.png",
-    date: "January 16",
-    btnText: "Learn More",
-    href: "/blog/medical-practice-with-effective-seo",
-    socialShare: true,
-    description:
-      "Boost your medical practice's online visibility with healthcare SEO. Learn essential strategies to attract patients and rank higher on Google.",
-  },
-];
+// const blogData = [
+//   {
+//     id: "strategies-for-healthcare-digital-marketing-success",
+//     title: "Digital Marketing Strategies for Healthcare Growth | MediaCook",
+//     thumbUrl: "images/banner_img.webp",
+//     date: "October 15",
+//     btnText: "Learn More",
+//     href: "/blog/strategies-for-healthcare-digital-marketing-success",
+//     socialShare: true,
+//     description:
+//       "Explore top healthcare digital marketing strategies to increase visibility, engage patients, and improve your practice’s success with SEO, PPC, and more.",
+//   },
+//   {
+//     id: "medical-practice-with-effective-seo",
+//     title: "Effective Healthcare SEO for Medical Professionals | MediaCook",
+//     thumbUrl: "images/blog/blog2.png",
+//     date: "January 16",
+//     btnText: "Learn More",
+//     href: "/blog/medical-practice-with-effective-seo",
+//     socialShare: true,
+//     description:
+//       "Boost your medical practice's online visibility with healthcare SEO. Learn essential strategies to attract patients and rank higher on Google.",
+//   },
+// ];
 
 // const blogData = [
 //   {
@@ -312,7 +313,7 @@ export default function Home() {
         <BlogSection
           sectionTitle="Our Latest Insights"
           sectionTitleUp="From the Blog"
-          data={blogData}
+          data={[...blogData].reverse().slice(0, 3)}
         />
       </Section>
       {/* Start Appointment Section */}

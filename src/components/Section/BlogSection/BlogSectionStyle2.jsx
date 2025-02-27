@@ -1,7 +1,7 @@
-import React from 'react';
-import Pagination from '../../Pagination';
-import Post from '../../Post';
-import Spacing from '../../Spacing';
+import React from "react";
+import Pagination from "../../Pagination";
+import Post from "../../Post";
+import Spacing from "../../Spacing";
 
 export default function BlogSectionStyle2({ data }) {
   return (
@@ -13,6 +13,7 @@ export default function BlogSectionStyle2({ data }) {
           </div>
         ))}
       </div>
+
       <Spacing md="110" lg="70" />
       <Pagination />
     </div>
