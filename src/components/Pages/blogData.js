@@ -36,13 +36,13 @@ export const blogData = [
       "Discover how SEM can boost your healthcare business in 2025. Learn strategies to enhance visibility, attract patients, and achieve measurable growth online.",
   },
   {
-    id: "HMPV-and-its-clinical-impact",
+    id: "human-metapneumovirus-and-its-clinical-impact",
     title: "Emerging Respiratory Virus: HMPV Symptoms & Prevention | MediaCook",
     thumbUrl: "images/blog/blog4.webp",
     date: "February 26",
     year: "2025",
     btnText: "Learn More",
-    href: "/blog/HMPV-and-its-clinical-impact",
+    href: "/blog/human-metapneumovirus-and-its-clinical-impact",
     socialShare: true,
     description:
       "Learn about HMPV, its symptoms, causes, and prevention. Know the risks, diagnosis, and treatment to stay safe from this respiratory virus.",
